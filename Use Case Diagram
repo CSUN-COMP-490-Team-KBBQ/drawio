@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-24T20:05:12.032Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="VeznDm89B7pMbLoLSIkx" version="15.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-24T23:22:05.780Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="JgCPfLNp0q8ANmUttaa7" version="15.3.1" type="github">
   <diagram id="UnVrMaJBSj_VIMKmZfNY" name="Page-1">
-    <mxGraphModel dx="1202" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2555" dy="1205" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,7 +16,7 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <UserObject label="Schedule" lucidchartObjectId=".Q4M82ccuo9S" id="z7tq0qDmp0ubDbN88N86-5">
+        <UserObject label="Friend 2&lt;br&gt;Schedule" lucidchartObjectId=".Q4M82ccuo9S" id="z7tq0qDmp0ubDbN88N86-5">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;ellipse;whiteSpace=wrap;fontSize=13.3;fontColor=#ffffff;fontStyle=2;align=center;spacing=0;verticalAlign=middle;strokeColor=#ffffff;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=7.5;fillColor=#3278cc;strokeWidth=0.8;" vertex="1" parent="z7tq0qDmp0ubDbN88N86-1">
             <mxGeometry x="208" y="430" width="120" height="90" as="geometry" />
           </mxCell>
@@ -56,7 +56,7 @@
             </mxGeometry>
           </mxCell>
         </UserObject>
-        <UserObject label="Events" lucidchartObjectId=".Q4M82ccuo9S" id="z7tq0qDmp0ubDbN88N86-50">
+        <UserObject label="Friend 1&lt;br&gt;Events" lucidchartObjectId=".Q4M82ccuo9S" id="z7tq0qDmp0ubDbN88N86-50">
           <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;ellipse;whiteSpace=wrap;fontSize=13.3;fontColor=#ffffff;fontStyle=2;align=center;spacing=0;verticalAlign=middle;strokeColor=#ffffff;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=7.5;fillColor=#3278cc;strokeWidth=0.8;" vertex="1" parent="z7tq0qDmp0ubDbN88N86-1">
             <mxGeometry x="23" y="20" width="120" height="90" as="geometry" />
           </mxCell>
@@ -91,10 +91,10 @@
             <mxPoint x="269.9999999999982" y="371.4999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="z7tq0qDmp0ubDbN88N86-30" value="Notification Sent" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z7tq0qDmp0ubDbN88N86-42" target="z7tq0qDmp0ubDbN88N86-2">
+        <mxCell id="z7tq0qDmp0ubDbN88N86-30" value="Notification Sent&lt;br&gt;(push and email?)" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="343.5000000000018" y="371.4999999999999" as="sourcePoint" />
-            <mxPoint x="326.7499999999982" y="298.5" as="targetPoint" />
+            <mxPoint x="441.5" y="407.5" as="sourcePoint" />
+            <mxPoint x="746" y="385" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="z7tq0qDmp0ubDbN88N86-31" value="Views/Edits Schedule" style="endArrow=classic;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7tq0qDmp0ubDbN88N86-2" target="z7tq0qDmp0ubDbN88N86-5">
@@ -113,6 +113,36 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="730" y="400" as="sourcePoint" />
             <mxPoint x="260" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Email Notification System" lucidchartObjectId=".Q4M__F_tF__" id="z7tq0qDmp0ubDbN88N86-51">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;container=1;whiteSpace=wrap;fontSize=16.7;fontColor=#333333;fontStyle=3;spacing=0;verticalAlign=bottom;strokeColor=#333333;strokeOpacity=100;fillOpacity=0;rounded=1;absoluteArcSize=1;arcSize=7.5;fillColor=#FFFF33;strokeWidth=0.8;" vertex="1" parent="1">
+            <mxGeometry x="254" y="770" width="342" height="190" as="geometry">
+              <mxRectangle x="217" y="173" width="90" height="30" as="alternateBounds" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="Email" lucidchartObjectId=".Q4M82ccuo9S" id="z7tq0qDmp0ubDbN88N86-52">
+          <mxCell style="html=1;overflow=block;blockSpacing=1;whiteSpace=wrap;ellipse;whiteSpace=wrap;fontSize=13.3;fontColor=#ffffff;fontStyle=2;align=center;spacing=0;verticalAlign=middle;strokeColor=#ffffff;strokeOpacity=100;fillOpacity=100;rounded=1;absoluteArcSize=1;arcSize=7.5;fillColor=#3278cc;strokeWidth=0.8;" vertex="1" parent="z7tq0qDmp0ubDbN88N86-51">
+            <mxGeometry x="118.32100553874268" y="66.6672072072072" width="98.89156626506025" height="30.810810810810807" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="z7tq0qDmp0ubDbN88N86-59" value="Accept/Reject &lt;br&gt;Invitation" style="endArrow=classic;startArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="z7tq0qDmp0ubDbN88N86-51" target="z7tq0qDmp0ubDbN88N86-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="629" y="890" as="sourcePoint" />
+            <mxPoint x="729" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z7tq0qDmp0ubDbN88N86-61" value="Update System?" style="endArrow=classic;startArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7tq0qDmp0ubDbN88N86-51" target="z7tq0qDmp0ubDbN88N86-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="375" y="880" as="sourcePoint" />
+            <mxPoint x="430" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z7tq0qDmp0ubDbN88N86-62" value="Notification Sent&lt;br&gt;(push and email?)" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z7tq0qDmp0ubDbN88N86-42" target="z7tq0qDmp0ubDbN88N86-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="136" y="552.5" as="sourcePoint" />
+            <mxPoint x="440.5" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
